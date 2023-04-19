@@ -1,0 +1,745 @@
+import katalon from "katalon";
+
+export default katalon.testCase("New Test Case", async ({ local, web }) => {
+  await web.openBrowser(
+    "https://katalon-test.s3.amazonaws.com/aut/html/form.html"
+  );
+  await web.click({
+    type: "Web",
+    id: "2f36a313-e038-416d-b7d9-6b1714e554e3",
+    attributes: {
+      type: "text",
+      class: "form-control",
+      id: "first-name",
+      name: "firstName",
+    },
+    childIndex: 1,
+    hashes: { "md5.v1": "57968df2692e26f003aeb5594d4b7b27" },
+    name: "input - firstName",
+    selectors: [
+      {
+        id: "4faaeb1d-f3f2-4c87-9635-b09ffe339a47",
+        type: "CSS",
+        value: "#first-name",
+        isDefault: true,
+      },
+      {
+        id: "aa5810c7-fa04-4e2a-90d6-9c5e84738e7d",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "input",
+    text: "",
+    pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.setText(
+    {
+      type: "Web",
+      id: "2f36a313-e038-416d-b7d9-6b1714e554e3",
+      attributes: {
+        type: "text",
+        class: "form-control",
+        id: "first-name",
+        name: "firstName",
+      },
+      childIndex: 1,
+      hashes: { "md5.v1": "57968df2692e26f003aeb5594d4b7b27" },
+      name: "input - firstName",
+      selectors: [
+        {
+          id: "4faaeb1d-f3f2-4c87-9635-b09ffe339a47",
+          type: "CSS",
+          value: "#first-name",
+          isDefault: true,
+        },
+        {
+          id: "aa5810c7-fa04-4e2a-90d6-9c5e84738e7d",
+          type: "Attribute",
+          value: null,
+          isDefault: true,
+        },
+      ],
+      selectorType: "CSS",
+      tag: "input",
+      text: "",
+      pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+      parentIframe: null,
+      shadowRoot: null,
+    },
+    "abc"
+  );
+  await web.click({
+    type: "Web",
+    id: "a2dd8614-c277-492a-b80c-9cc2d8ffe574",
+    attributes: {
+      type: "text",
+      class: "form-control",
+      id: "last-name",
+      name: "lastName",
+    },
+    childIndex: 1,
+    hashes: { "md5.v1": "8539708e94305f4a0074483ac30100ec" },
+    name: "input - lastName",
+    selectors: [
+      {
+        id: "ca989a66-e460-406d-959c-42f53fd77e5e",
+        type: "CSS",
+        value: "#last-name",
+        isDefault: true,
+      },
+      {
+        id: "f74b8350-af0b-4721-add0-16784ce75162",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "input",
+    text: "",
+    pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.setText(
+    {
+      type: "Web",
+      id: "a2dd8614-c277-492a-b80c-9cc2d8ffe574",
+      attributes: {
+        type: "text",
+        class: "form-control",
+        id: "last-name",
+        name: "lastName",
+      },
+      childIndex: 1,
+      hashes: { "md5.v1": "8539708e94305f4a0074483ac30100ec" },
+      name: "input - lastName",
+      selectors: [
+        {
+          id: "ca989a66-e460-406d-959c-42f53fd77e5e",
+          type: "CSS",
+          value: "#last-name",
+          isDefault: true,
+        },
+        {
+          id: "f74b8350-af0b-4721-add0-16784ce75162",
+          type: "Attribute",
+          value: null,
+          isDefault: true,
+        },
+      ],
+      selectorType: "CSS",
+      tag: "input",
+      text: "",
+      pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+      parentIframe: null,
+      shadowRoot: null,
+    },
+    "def"
+  );
+  await web.click({
+    type: "Web",
+    id: "8a3df26b-f023-4f17-8101-fe75550a82d6",
+    attributes: { class: "radio-inline" },
+    childIndex: 3,
+    hashes: { "md5.v1": "9c4314749a8eb95aa9e30375320faa92" },
+    name: "label - In Between",
+    selectors: [
+      {
+        id: "22ea3e3d-98a9-409c-9b77-bd54c2c828f1",
+        type: "CSS",
+        value: ".radio-inline:nth-child(3)",
+        isDefault: true,
+      },
+      {
+        id: "4b6beb34-3d5d-4f7f-82c1-1d2e36d497bc",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "label",
+    text: "In Between",
+    pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "51f5b809-0669-418b-900b-908ec3154151",
+    attributes: { type: "radio", name: "gender" },
+    childIndex: 1,
+    hashes: { "md5.v1": "cadd1f97cc2fb5b54ad2b4532dd684b6" },
+    name: "input - gender",
+    selectors: [
+      {
+        id: "99b2d7a3-1336-4f92-8444-1e708392649d",
+        type: "CSS",
+        value: '.radio-inline:nth-child(2) [name="gender"]',
+        isDefault: true,
+      },
+      {
+        id: "747d3e82-0ddc-46e2-87ed-7b4dcf326d4f",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "input",
+    text: "",
+    pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "eb60013b-e412-48cb-8968-c7dd7ef9444b",
+    attributes: { type: "radio", name: "gender" },
+    childIndex: 1,
+    hashes: { "md5.v1": "d69ec245d788eaded7f7a9215f2e5634" },
+    name: "input - gender",
+    selectors: [
+      {
+        id: "1d9467ff-d992-46ba-9b84-10dd3642cce3",
+        type: "CSS",
+        value: '.radio-inline:nth-child(1) [name="gender"]',
+        isDefault: true,
+      },
+      {
+        id: "8f2dca2a-e46c-488c-b677-97101b37e3ad",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "input",
+    text: "",
+    pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.scrollToElement({
+    type: "Web",
+    id: "d385c680-c687-49b8-8b37-bb0e1ec261cd",
+    attributes: { for: "comment", class: "control-label col-sm-2" },
+    childIndex: 1,
+    hashes: { "md5.v1": "1f5a07ac304170630c2205123c95b525" },
+    name: "label - Comment",
+    selectors: [
+      {
+        id: "c23947ca-d2db-4355-aa8b-352fad6069ed",
+        type: "CSS",
+        value: '[for="comment"]',
+        isDefault: true,
+      },
+      {
+        id: "ea6b18fd-ef06-4e9f-8267-1c6fa0d851a9",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "label",
+    text: "Comment",
+    pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "e48fd917-7bba-44ae-b21e-4b4c2604e7e8",
+    attributes: {
+      class: "form-control",
+      rows: "5",
+      id: "comment",
+      name: "comment",
+    },
+    childIndex: 1,
+    hashes: { "md5.v1": "8b5e52ba53e3a6a87949118e414d2daa" },
+    name: "textarea - comment",
+    selectors: [
+      {
+        id: "077c02cc-22a9-4de4-94d0-2722eb2d31fe",
+        type: "CSS",
+        value: "#comment",
+        isDefault: true,
+      },
+      {
+        id: "faf37081-739d-433d-87f9-d32c8437a06b",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "textarea",
+    text: "",
+    pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.setText(
+    {
+      type: "Web",
+      id: "e48fd917-7bba-44ae-b21e-4b4c2604e7e8",
+      attributes: {
+        class: "form-control",
+        rows: "5",
+        id: "comment",
+        name: "comment",
+      },
+      childIndex: 1,
+      hashes: { "md5.v1": "8b5e52ba53e3a6a87949118e414d2daa" },
+      name: "textarea - comment",
+      selectors: [
+        {
+          id: "077c02cc-22a9-4de4-94d0-2722eb2d31fe",
+          type: "CSS",
+          value: "#comment",
+          isDefault: true,
+        },
+        {
+          id: "faf37081-739d-433d-87f9-d32c8437a06b",
+          type: "Attribute",
+          value: null,
+          isDefault: true,
+        },
+      ],
+      selectorType: "CSS",
+      tag: "textarea",
+      text: "",
+      pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+      parentIframe: null,
+      shadowRoot: null,
+    },
+    "qwerty"
+  );
+  await web.check({
+    type: "Web",
+    id: "29815183-5362-4749-96a8-25975c6c46d9",
+    attributes: { type: "checkbox", value: "" },
+    childIndex: 1,
+    hashes: { "md5.v1": "b4be56b3bf8bbf17885d29ff821c85b6" },
+    name: "input - ",
+    selectors: [
+      {
+        id: "e7d3b18d-cede-44d6-b01b-fbb5b0ee0039",
+        type: "CSS",
+        value: '.checkbox:nth-child(6) [value=""]',
+        isDefault: true,
+      },
+      {
+        id: "33021385-4f42-4941-93bc-1fdcd48d0a9e",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "input",
+    text: "",
+    pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "2e6cb1b1-3cdf-45e6-9826-e5d66714007b",
+    attributes: {},
+    childIndex: 1,
+    hashes: { "md5.v1": "75084cf3a876454432c5574d09a0683d" },
+    name: "label - Read tech blogs",
+    selectors: [
+      {
+        id: "7d18bb6c-4c2f-4e9d-b84a-e86a54d5fe78",
+        type: "CSS",
+        value: ".checkbox:nth-child(5) label",
+        isDefault: true,
+      },
+      {
+        id: "04675577-cc59-4691-bc6f-fc6605b5cbc0",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "label",
+    text: "Read tech blogs",
+    pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.check({
+    type: "Web",
+    id: "2ae138dd-ad3e-4d68-9fe2-568813d779da",
+    attributes: { type: "checkbox", value: "" },
+    childIndex: 1,
+    hashes: { "md5.v1": "979374d6e9bcd2ba39bc87bcdd297e7d" },
+    name: "input - ",
+    selectors: [
+      {
+        id: "6393e01e-a2a2-4722-87b7-c44de7f187dc",
+        type: "CSS",
+        value: '.checkbox:nth-child(4) [value=""]',
+        isDefault: true,
+      },
+      {
+        id: "37f6d77b-f8c6-41ae-8ce7-84056def38cd",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "input",
+    text: "",
+    pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "d55f47a9-7bec-4489-b5d1-209484d96735",
+    attributes: {},
+    childIndex: 1,
+    hashes: { "md5.v1": "80527dd957fd2ea4e20e84539fef1e58" },
+    name: "label - Contribute to opensource projects",
+    selectors: [
+      {
+        id: "8b62cdfb-e999-41e6-99c1-80d9bc8919bb",
+        type: "CSS",
+        value: ".checkbox:nth-child(3) label",
+        isDefault: true,
+      },
+      {
+        id: "4721fdc9-4387-416f-94d8-ee21887aecc2",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "label",
+    text: "Contribute to opensource projects",
+    pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "45ee496f-e1f8-45dd-8287-684a4a3ec3fd",
+    attributes: {},
+    childIndex: 1,
+    hashes: { "md5.v1": "c2c461079c51b4ff40a8a5bed43d9fa2" },
+    name: "label - Take online courses",
+    selectors: [
+      {
+        id: "5cf326e0-7a6a-4af2-8cdf-eb2ce905777a",
+        type: "CSS",
+        value: ".checkbox:nth-child(2) label",
+        isDefault: true,
+      },
+      {
+        id: "a5b742f8-05a8-428f-ba1f-e4755c464f44",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "label",
+    text: "Take online courses",
+    pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.check({
+    type: "Web",
+    id: "bb1e7bb7-966e-450d-a07a-752576382c2c",
+    attributes: { type: "checkbox", value: "" },
+    childIndex: 1,
+    hashes: { "md5.v1": "36362c778d2925319c3255774d8455d6" },
+    name: "input - ",
+    selectors: [
+      {
+        id: "930ebb7f-9746-4fd2-be69-f55e070300a3",
+        type: "CSS",
+        value: '.checkbox:nth-child(1) [value=""]',
+        isDefault: true,
+      },
+      {
+        id: "cf92194b-8c36-4fe2-8db8-3b949bbb365b",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "input",
+    text: "",
+    pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "db5d6db7-7597-4cef-9128-d0f87a9ac867",
+    attributes: { value: "Excellent colleagues" },
+    childIndex: 3,
+    hashes: { "md5.v1": "fc41a5ca88583fe86b0cacdce154ef24" },
+    name: "option - Excellent colleagues",
+    selectors: [
+      {
+        id: "2f76bc49-6227-4d08-8863-87250af2795b",
+        type: "CSS",
+        value: '[value="Excellent\\ colleagues"]',
+        isDefault: true,
+      },
+      {
+        id: "31469c39-1d08-4539-b1f3-2a5fbb534739",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "option",
+    text: "Excellent colleagues",
+    pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "f9e6d833-0aa4-409d-9353-f89423999248",
+    attributes: {
+      type: "password",
+      class: "form-control",
+      id: "password",
+      name: "password",
+    },
+    childIndex: 1,
+    hashes: { "md5.v1": "bea90ebb95957c1fede6071f6668d98d" },
+    name: "input - password",
+    selectors: [
+      {
+        id: "a63628c2-3dbe-4e4f-b00b-b0b1dd9678c2",
+        type: "CSS",
+        value: "#password",
+        isDefault: true,
+      },
+      {
+        id: "0973f59f-991b-4a95-b835-0f2e7449912b",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "input",
+    text: "",
+    pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.setEncryptedText(
+    {
+      type: "Web",
+      id: "f9e6d833-0aa4-409d-9353-f89423999248",
+      attributes: {
+        type: "password",
+        class: "form-control",
+        id: "password",
+        name: "password",
+      },
+      childIndex: 1,
+      hashes: { "md5.v1": "bea90ebb95957c1fede6071f6668d98d" },
+      name: "input - password",
+      selectors: [
+        {
+          id: "a63628c2-3dbe-4e4f-b00b-b0b1dd9678c2",
+          type: "CSS",
+          value: "#password",
+          isDefault: true,
+        },
+        {
+          id: "0973f59f-991b-4a95-b835-0f2e7449912b",
+          type: "Attribute",
+          value: null,
+          isDefault: true,
+        },
+      ],
+      selectorType: "CSS",
+      tag: "input",
+      text: "",
+      pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+      parentIframe: null,
+      shadowRoot: null,
+    },
+    "8c3c90df9fd2d90ba5dbe489a727d267-U2FsdGVkX19m0lZh/xPdr4xvDB5XwF3Ekv1KS6UE3mI="
+  );
+  await web.scrollToElement({
+    type: "Web",
+    id: "76e76a42-205a-4cbb-b1f9-44125a86f2ee",
+    attributes: { for: "first-name", class: "control-label col-sm-2" },
+    childIndex: 1,
+    hashes: { "md5.v1": "57ab9e67a40383dd0aa85145dcc7a571" },
+    name: "label - First name",
+    selectors: [
+      {
+        id: "41ec2005-ea16-469b-8fcf-c95992f833da",
+        type: "CSS",
+        value: '[for="first-name"]',
+        isDefault: true,
+      },
+      {
+        id: "8e763bde-9363-400c-a16b-4f9b213a875d",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "label",
+    text: "First name",
+    pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "2f36a313-e038-416d-b7d9-6b1714e554e3",
+    attributes: {
+      type: "text",
+      class: "form-control",
+      id: "first-name",
+      name: "firstName",
+    },
+    childIndex: 1,
+    hashes: { "md5.v1": "57968df2692e26f003aeb5594d4b7b27" },
+    name: "input - firstName",
+    selectors: [
+      {
+        id: "4faaeb1d-f3f2-4c87-9635-b09ffe339a47",
+        type: "CSS",
+        value: "#first-name",
+        isDefault: true,
+      },
+      {
+        id: "aa5810c7-fa04-4e2a-90d6-9c5e84738e7d",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "input",
+    text: "",
+    pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.setText(
+    {
+      type: "Web",
+      id: "2f36a313-e038-416d-b7d9-6b1714e554e3",
+      attributes: {
+        type: "text",
+        class: "form-control",
+        id: "first-name",
+        name: "firstName",
+      },
+      childIndex: 1,
+      hashes: { "md5.v1": "57968df2692e26f003aeb5594d4b7b27" },
+      name: "input - firstName",
+      selectors: [
+        {
+          id: "4faaeb1d-f3f2-4c87-9635-b09ffe339a47",
+          type: "CSS",
+          value: "#first-name",
+          isDefault: true,
+        },
+        {
+          id: "aa5810c7-fa04-4e2a-90d6-9c5e84738e7d",
+          type: "Attribute",
+          value: null,
+          isDefault: true,
+        },
+      ],
+      selectorType: "CSS",
+      tag: "input",
+      text: "",
+      pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+      parentIframe: null,
+      shadowRoot: null,
+    },
+    "abcdef"
+  );
+  await web.scrollToElement({
+    type: "Web",
+    id: "d385c680-c687-49b8-8b37-bb0e1ec261cd",
+    attributes: { for: "comment", class: "control-label col-sm-2" },
+    childIndex: 1,
+    hashes: { "md5.v1": "1f5a07ac304170630c2205123c95b525" },
+    name: "label - Comment",
+    selectors: [
+      {
+        id: "c23947ca-d2db-4355-aa8b-352fad6069ed",
+        type: "CSS",
+        value: '[for="comment"]',
+        isDefault: true,
+      },
+      {
+        id: "ea6b18fd-ef06-4e9f-8267-1c6fa0d851a9",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "label",
+    text: "Comment",
+    pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "bcb2dbd7-6c2a-44c2-a366-91fa0f7ae0e7",
+    attributes: { type: "submit", id: "submit", class: "btn btn-primary" },
+    childIndex: 1,
+    hashes: { "md5.v1": "d81f27a20014232719a8cef127e982c9" },
+    name: "button - Submit",
+    selectors: [
+      {
+        id: "c93ea260-93d1-4747-a065-20ec0345d8dd",
+        type: "CSS",
+        value: "#submit",
+        isDefault: true,
+      },
+      {
+        id: "24b2d887-29fd-49db-b2d0-310c350f2f87",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "button",
+    text: "Submit",
+    pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.closeBrowser();
+});
