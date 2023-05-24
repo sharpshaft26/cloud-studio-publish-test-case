@@ -1,0 +1,748 @@
+import katalon from "@katalon-studio/cloud-test";
+
+export default katalon.testCase("New Test Case", async ({ local, web }) => {
+  await new Promise((r) => setTimeout(r, 0));
+  await web.openBrowser("https://youtube.com/");
+  await web.click({
+    type: "Web",
+    id: "645991e3-c843-4e48-be79-c53ce85cd6f6",
+    attributes: {
+      class: "style-scope ytd-guide-entry-renderer",
+      role: "tab",
+      "style-target": "host",
+      tabindex: "0",
+      "aria-disabled": "false",
+      "aria-selected": "false",
+      focused: "",
+    },
+    childIndex: 1,
+    hashes: { "md5.v1": "fcce3a5cc962cc50de99465ca37e379a" },
+    name: "tp-yt-paper-item - Shorts",
+    selectors: [
+      {
+        id: "d3c9cf3f-185a-44ae-9c64-0149e84e1563",
+        type: "CSS",
+        value: '[focused=""]',
+        isDefault: true,
+      },
+      {
+        id: "555b3b10-6acd-42be-ae33-bcbb5a112f77",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "tp-yt-paper-item",
+    text: "Shorts",
+    pageUrl: "https://www.youtube.com/",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "f5538e0b-669a-4320-ac02-d34de43f15d7",
+    attributes: { class: "title style-scope ytd-guide-entry-renderer" },
+    childIndex: 3,
+    hashes: { "md5.v1": "ec29bafe84192d7a3ff56639602eff26" },
+    name: "yt-formatted-string - Subscriptions",
+    selectors: [
+      {
+        id: "76ca8ef7-71e3-4dd0-8f05-e6451fddea8f",
+        type: "CSS",
+        value: '[focused=""] .title',
+        isDefault: true,
+      },
+      {
+        id: "86911486-92f3-47f9-9530-7bd5aa1a3d55",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "yt-formatted-string",
+    text: "Subscriptions",
+    pageUrl: "https://www.youtube.com/shorts/qNBnQgPDXm4",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "c214166e-4ea8-44b8-89ab-4db0115bbf41",
+    attributes: { id: "logo-icon", class: "style-scope ytd-logo" },
+    childIndex: 1,
+    hashes: { "md5.v1": "967a37490467b7cf1e6f7a42a28fa259" },
+    name: "yt-icon - style-scope ytd-logo",
+    selectors: [
+      {
+        id: "c35b270e-032f-4a69-9794-6fc070943072",
+        type: "CSS",
+        value:
+          "ytd-topbar-logo-renderer#logo div.ytd-topbar-logo-renderer #logo-icon",
+        isDefault: true,
+      },
+      {
+        id: "481c99d9-868e-486c-8925-1259303b6eba",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "yt-icon",
+    text: "",
+    pageUrl: "https://www.youtube.com/feed/subscriptions",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "2dcbbda0-0024-4ca0-a07b-2220994907e8",
+    attributes: { class: "ytp-inline-preview-scrim" },
+    childIndex: 1,
+    hashes: { "md5.v1": "4676eb84827f989713ad8dde6fe9c7d3" },
+    name: "div - 0:00 / 29:42",
+    selectors: [
+      {
+        id: "12b11f96-742f-48e1-a526-be5e3ed99343",
+        type: "CSS",
+        value: ".ytp-inline-preview-scrim",
+        isDefault: true,
+      },
+      {
+        id: "1081f24d-6217-4edd-8f99-608a1cbc2154",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "div",
+    text: "0:00 / 29:42",
+    pageUrl: "https://www.youtube.com/",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "d084f445-5f0b-4779-a426-44c27fdcb3c2",
+    attributes: {
+      id: "play",
+      icon: "play_all",
+      class: "style-scope ytd-moving-thumbnail-renderer",
+    },
+    childIndex: 2,
+    hashes: { "md5.v1": "a15e5d6c15840fd02b321ad778df2beb" },
+    name: "yt-icon - style-scope ytd-moving-thumbnail-renderer",
+    selectors: [
+      {
+        id: "079e1203-661a-4472-972a-e867cb8e26fa",
+        type: "CSS",
+        value: "#play",
+        isDefault: true,
+      },
+      {
+        id: "5b47d228-9c97-4869-8240-b88a7b2eb35a",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "yt-icon",
+    text: "",
+    pageUrl: "https://www.youtube.com/watch?v=NgayZAuTgwM",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "d084f445-5f0b-4779-a426-44c27fdcb3c2",
+    attributes: {
+      id: "play",
+      icon: "play_all",
+      class: "style-scope ytd-moving-thumbnail-renderer",
+    },
+    childIndex: 2,
+    hashes: { "md5.v1": "a15e5d6c15840fd02b321ad778df2beb" },
+    name: "yt-icon - style-scope ytd-moving-thumbnail-renderer",
+    selectors: [
+      {
+        id: "079e1203-661a-4472-972a-e867cb8e26fa",
+        type: "CSS",
+        value: "#play",
+        isDefault: true,
+      },
+      {
+        id: "5b47d228-9c97-4869-8240-b88a7b2eb35a",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "yt-icon",
+    text: "",
+    pageUrl: "https://www.youtube.com/watch?v=NgayZAuTgwM",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "d084f445-5f0b-4779-a426-44c27fdcb3c2",
+    attributes: {
+      id: "play",
+      icon: "play_all",
+      class: "style-scope ytd-moving-thumbnail-renderer",
+    },
+    childIndex: 2,
+    hashes: { "md5.v1": "a15e5d6c15840fd02b321ad778df2beb" },
+    name: "yt-icon - style-scope ytd-moving-thumbnail-renderer",
+    selectors: [
+      {
+        id: "079e1203-661a-4472-972a-e867cb8e26fa",
+        type: "CSS",
+        value: "#play",
+        isDefault: true,
+      },
+      {
+        id: "5b47d228-9c97-4869-8240-b88a7b2eb35a",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "yt-icon",
+    text: "",
+    pageUrl: "https://www.youtube.com/watch?v=NgayZAuTgwM",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "dcbed07d-952d-42be-84b6-8b586c1f293c",
+    attributes: { class: "yt-spec-icon-badge-shape__badge" },
+    childIndex: 2,
+    hashes: { "md5.v1": "92874a5710d1733aaca61087167f4e6c" },
+    name: "div - 2",
+    selectors: [
+      {
+        id: "31107729-a7e0-4832-8537-bc38db8de787",
+        type: "CSS",
+        value: ".yt-spec-icon-badge-shape__badge",
+        isDefault: true,
+      },
+      {
+        id: "1a773867-de54-417e-9ebf-870854fded6b",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "div",
+    text: "2",
+    pageUrl: "https://www.youtube.com/watch?v=Ul3y1LXxzdU",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "3601f6dc-8e53-4f52-a6ae-dd332fb15c12",
+    attributes: {},
+    childIndex: 1,
+    hashes: { "md5.v1": "94dd668fe3ce485343f891615c9316eb" },
+    name: "yt-icon - ",
+    selectors: [
+      {
+        id: "c175f4af-c9e5-496a-83b1-3a294405e229",
+        type: "CSS",
+        value: ".yt-spec-icon-badge-shape__icon yt-icon",
+        isDefault: true,
+      },
+      {
+        id: "afd34642-19c5-423d-a734-fcdfa8331a57",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "yt-icon",
+    text: "",
+    pageUrl: "https://www.youtube.com/watch?v=Ul3y1LXxzdU",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "d084f445-5f0b-4779-a426-44c27fdcb3c2",
+    attributes: {
+      id: "play",
+      icon: "play_all",
+      class: "style-scope ytd-moving-thumbnail-renderer",
+    },
+    childIndex: 2,
+    hashes: { "md5.v1": "a15e5d6c15840fd02b321ad778df2beb" },
+    name: "yt-icon - style-scope ytd-moving-thumbnail-renderer",
+    selectors: [
+      {
+        id: "079e1203-661a-4472-972a-e867cb8e26fa",
+        type: "CSS",
+        value: "#play",
+        isDefault: true,
+      },
+      {
+        id: "5b47d228-9c97-4869-8240-b88a7b2eb35a",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "yt-icon",
+    text: "",
+    pageUrl: "https://www.youtube.com/watch?v=NgayZAuTgwM",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "dbcb3e19-294a-446b-a125-efd156fe4647",
+    attributes: {
+      id: "thumbnail",
+      alt: "",
+      class: "style-scope ytd-moving-thumbnail-renderer fade-in",
+      src: "https://i.ytimg.com/an_webp/bAJlYgeovlg/mqdefault_6s.webp?du=3000&sqp=CIDUtaMG&rs=AOn4CLB8zGhq_ygrnrbvQXpDn7RL1KI5uQ",
+    },
+    childIndex: 1,
+    hashes: { "md5.v1": "ccbef9e6e1acc8d0b9b16555c980e8b2" },
+    name: "img - style-scope ytd-moving-thumbnail-renderer fade-in",
+    selectors: [
+      {
+        id: "bdbe8a82-f8d6-45a7-b834-a49670711f00",
+        type: "CSS",
+        value: ".ytd-moving-thumbnail-renderer.fade-in",
+        isDefault: true,
+      },
+      {
+        id: "b45acbb7-fb24-4fe4-8e95-bf33f150dbb8",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "img",
+    text: "",
+    pageUrl: "https://www.youtube.com/watch?v=lyNetvEfvT0",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "d084f445-5f0b-4779-a426-44c27fdcb3c2",
+    attributes: {
+      id: "play",
+      icon: "play_all",
+      class: "style-scope ytd-moving-thumbnail-renderer",
+    },
+    childIndex: 2,
+    hashes: { "md5.v1": "a15e5d6c15840fd02b321ad778df2beb" },
+    name: "yt-icon - style-scope ytd-moving-thumbnail-renderer",
+    selectors: [
+      {
+        id: "079e1203-661a-4472-972a-e867cb8e26fa",
+        type: "CSS",
+        value: "#play",
+        isDefault: true,
+      },
+      {
+        id: "5b47d228-9c97-4869-8240-b88a7b2eb35a",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "yt-icon",
+    text: "",
+    pageUrl: "https://www.youtube.com/watch?v=NgayZAuTgwM",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "5ea0a38b-d4de-4792-96ee-02681811babf",
+    attributes: {
+      tabindex: "-1",
+      class: "video-stream html5-main-video",
+      controlslist: "nodownload",
+      src: "blob:https://www.youtube.com/19be81e7-339c-42f0-9d5d-d3628860d588",
+    },
+    childIndex: 1,
+    hashes: { "md5.v1": "5edac9a23adfea07bfa26233ae2c32ad" },
+    name: "video - video-stream html5-main-video",
+    selectors: [
+      {
+        id: "8255be85-7a78-4fb0-8763-d8f46eff59c7",
+        type: "CSS",
+        value: "#movie_player .video-stream",
+        isDefault: true,
+      },
+      {
+        id: "be618e1a-3ac8-45f0-8ccd-3785e61dec42",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "video",
+    text: "",
+    pageUrl: "https://www.youtube.com/watch?v=NZqMVUEiDIw",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "913377e6-8eb6-48fa-9dee-f9584e992d9d",
+    attributes: {
+      id: "img",
+      draggable: "false",
+      class: "style-scope yt-img-shadow",
+      alt: "Avatar image",
+      height: "32",
+      width: "32",
+      src: "https://yt3.ggpht.com/yti/AHyvSCD8MJnKqFBCqRGKoBQwknhDcJfzDTOx1MQORUukGQ=s88-c-k-c0x00ffffff-no-rj-mo",
+    },
+    childIndex: 1,
+    hashes: { "md5.v1": "51a20a6bb18366140756838f613fd9d5" },
+    name: "img - Avatar image",
+    selectors: [
+      {
+        id: "1fa8a03e-afa7-4099-97fe-90db441b89fc",
+        type: "CSS",
+        value: '[alt="Avatar\\ image"]',
+        isDefault: true,
+      },
+      {
+        id: "e6c9844a-c0e9-436b-ba29-68ab7fb245b8",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "img",
+    text: "",
+    pageUrl: "https://www.youtube.com/watch?v=NZqMVUEiDIw",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "913377e6-8eb6-48fa-9dee-f9584e992d9d",
+    attributes: {
+      id: "img",
+      draggable: "false",
+      class: "style-scope yt-img-shadow",
+      alt: "Avatar image",
+      height: "32",
+      width: "32",
+      src: "https://yt3.ggpht.com/yti/AHyvSCD8MJnKqFBCqRGKoBQwknhDcJfzDTOx1MQORUukGQ=s88-c-k-c0x00ffffff-no-rj-mo",
+    },
+    childIndex: 1,
+    hashes: { "md5.v1": "51a20a6bb18366140756838f613fd9d5" },
+    name: "img - Avatar image",
+    selectors: [
+      {
+        id: "1fa8a03e-afa7-4099-97fe-90db441b89fc",
+        type: "CSS",
+        value: '[alt="Avatar\\ image"]',
+        isDefault: true,
+      },
+      {
+        id: "e6c9844a-c0e9-436b-ba29-68ab7fb245b8",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "img",
+    text: "",
+    pageUrl: "https://www.youtube.com/watch?v=NZqMVUEiDIw",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "5ea0a38b-d4de-4792-96ee-02681811babf",
+    attributes: {
+      tabindex: "-1",
+      class: "video-stream html5-main-video",
+      controlslist: "nodownload",
+      src: "blob:https://www.youtube.com/19be81e7-339c-42f0-9d5d-d3628860d588",
+    },
+    childIndex: 1,
+    hashes: { "md5.v1": "5edac9a23adfea07bfa26233ae2c32ad" },
+    name: "video - video-stream html5-main-video",
+    selectors: [
+      {
+        id: "8255be85-7a78-4fb0-8763-d8f46eff59c7",
+        type: "CSS",
+        value: "#movie_player .video-stream",
+        isDefault: true,
+      },
+      {
+        id: "be618e1a-3ac8-45f0-8ccd-3785e61dec42",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "video",
+    text: "",
+    pageUrl: "https://www.youtube.com/watch?v=NZqMVUEiDIw",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "d084f445-5f0b-4779-a426-44c27fdcb3c2",
+    attributes: {
+      id: "play",
+      icon: "play_all",
+      class: "style-scope ytd-moving-thumbnail-renderer",
+    },
+    childIndex: 2,
+    hashes: { "md5.v1": "a15e5d6c15840fd02b321ad778df2beb" },
+    name: "yt-icon - style-scope ytd-moving-thumbnail-renderer",
+    selectors: [
+      {
+        id: "079e1203-661a-4472-972a-e867cb8e26fa",
+        type: "CSS",
+        value: "#play",
+        isDefault: true,
+      },
+      {
+        id: "5b47d228-9c97-4869-8240-b88a7b2eb35a",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "yt-icon",
+    text: "",
+    pageUrl: "https://www.youtube.com/watch?v=NgayZAuTgwM",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "d084f445-5f0b-4779-a426-44c27fdcb3c2",
+    attributes: {
+      id: "play",
+      icon: "play_all",
+      class: "style-scope ytd-moving-thumbnail-renderer",
+    },
+    childIndex: 2,
+    hashes: { "md5.v1": "a15e5d6c15840fd02b321ad778df2beb" },
+    name: "yt-icon - style-scope ytd-moving-thumbnail-renderer",
+    selectors: [
+      {
+        id: "079e1203-661a-4472-972a-e867cb8e26fa",
+        type: "CSS",
+        value: "#play",
+        isDefault: true,
+      },
+      {
+        id: "5b47d228-9c97-4869-8240-b88a7b2eb35a",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "yt-icon",
+    text: "",
+    pageUrl: "https://www.youtube.com/watch?v=NgayZAuTgwM",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "dbcb3e19-294a-446b-a125-efd156fe4647",
+    attributes: {
+      id: "thumbnail",
+      alt: "",
+      class: "style-scope ytd-moving-thumbnail-renderer fade-in",
+      src: "https://i.ytimg.com/an_webp/bAJlYgeovlg/mqdefault_6s.webp?du=3000&sqp=CIDUtaMG&rs=AOn4CLB8zGhq_ygrnrbvQXpDn7RL1KI5uQ",
+    },
+    childIndex: 1,
+    hashes: { "md5.v1": "ccbef9e6e1acc8d0b9b16555c980e8b2" },
+    name: "img - style-scope ytd-moving-thumbnail-renderer fade-in",
+    selectors: [
+      {
+        id: "bdbe8a82-f8d6-45a7-b834-a49670711f00",
+        type: "CSS",
+        value: ".ytd-moving-thumbnail-renderer.fade-in",
+        isDefault: true,
+      },
+      {
+        id: "b45acbb7-fb24-4fe4-8e95-bf33f150dbb8",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "img",
+    text: "",
+    pageUrl: "https://www.youtube.com/watch?v=lyNetvEfvT0",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.closeBrowser();
+  await web.openBrowser(
+    "https://katalon-test.s3.amazonaws.com/aut/html/form.html"
+  );
+  await web.click({
+    type: "Web",
+    id: "7805a1c9-c20f-4097-bfac-f00890f1114f",
+    attributes: {
+      type: "text",
+      class: "form-control",
+      id: "first-name",
+      name: "firstName",
+    },
+    childIndex: 1,
+    hashes: { "md5.v1": "57968df2692e26f003aeb5594d4b7b27" },
+    name: "input - firstName",
+    selectors: [
+      {
+        id: "d930b585-2b6f-4020-95bf-37af8d88fd12",
+        type: "CSS",
+        value: "#first-name",
+        isDefault: true,
+      },
+      {
+        id: "181f2659-8ffc-4df1-bf67-cc997e49cd96",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "input",
+    text: "",
+    pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "d8104cce-4f6e-46e3-9954-7839e8dc20d1",
+    attributes: {
+      type: "text",
+      class: "form-control",
+      id: "last-name",
+      name: "lastName",
+    },
+    childIndex: 1,
+    hashes: { "md5.v1": "8539708e94305f4a0074483ac30100ec" },
+    name: "input - lastName",
+    selectors: [
+      {
+        id: "96804d58-4b57-4374-926d-0ae986ab8313",
+        type: "CSS",
+        value: "#last-name",
+        isDefault: true,
+      },
+      {
+        id: "951db239-8caf-4248-ad40-7088b8e39afe",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "input",
+    text: "",
+    pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.click({
+    type: "Web",
+    id: "535296d6-ab4e-4986-9708-0b09f0cb4fcb",
+    attributes: { type: "text", class: "form-control", id: "dob", name: "dob" },
+    childIndex: 1,
+    hashes: { "md5.v1": "fa5d076d19d96327a68b33b82382b141" },
+    name: "input - dob",
+    selectors: [
+      {
+        id: "b04ae997-6403-4dc4-a9de-3356168c2d0d",
+        type: "CSS",
+        value: "#dob",
+        isDefault: true,
+      },
+      {
+        id: "da687ddc-69de-48a4-9e26-0ffa904ac2f1",
+        type: "Attribute",
+        value: null,
+        isDefault: true,
+      },
+    ],
+    selectorType: "CSS",
+    tag: "input",
+    text: "",
+    pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+    parentIframe: null,
+    shadowRoot: null,
+  });
+  await web.setText(
+    {
+      type: "Web",
+      id: "535296d6-ab4e-4986-9708-0b09f0cb4fcb",
+      attributes: {
+        type: "text",
+        class: "form-control",
+        id: "dob",
+        name: "dob",
+      },
+      childIndex: 1,
+      hashes: { "md5.v1": "fa5d076d19d96327a68b33b82382b141" },
+      name: "input - dob",
+      selectors: [
+        {
+          id: "b04ae997-6403-4dc4-a9de-3356168c2d0d",
+          type: "CSS",
+          value: "#dob",
+          isDefault: true,
+        },
+        {
+          id: "da687ddc-69de-48a4-9e26-0ffa904ac2f1",
+          type: "Attribute",
+          value: null,
+          isDefault: true,
+        },
+      ],
+      selectorType: "CSS",
+      tag: "input",
+      text: "",
+      pageUrl: "https://katalon-test.s3.amazonaws.com/aut/html/form.html",
+      parentIframe: null,
+      shadowRoot: null,
+    },
+    "asd"
+  );
+  await web.closeBrowser();
+  await web.openBrowser("https://youtube.com/");
+  await web.closeBrowser();
+});
