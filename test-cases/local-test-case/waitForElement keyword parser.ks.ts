@@ -24,7 +24,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
       {
         id: "8c10e481-15fb-48e8-b2fb-05b667604bf6",
         type: "Attribute",
-        value: null,
         isDefault: true,
       },
     ],
@@ -32,8 +31,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
     tag: "a",
     text: "Make Appointment",
     pageUrl: "https://katalon-demo-cura.herokuapp.com/",
-    parentIframe: null,
-    shadowRoot: null,
   });
   await web.waitForElementPresent(
     {
@@ -53,7 +50,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
         {
           id: "58380109-5fcc-4e77-b433-05360b9c2c15",
           type: "Attribute",
-          value: null,
           isDefault: true,
         },
       ],
@@ -61,9 +57,7 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
       tag: "h2",
       text: "Login",
       pageUrl: "https://katalon-demo-cura.herokuapp.com/profile.php#login",
-      parentIframe: null,
-      shadowRoot: null,
     },
-    30
+    6.9
   );
 });
