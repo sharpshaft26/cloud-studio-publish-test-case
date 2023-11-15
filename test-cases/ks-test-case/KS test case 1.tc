@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TestCaseEntity>
+    <executionType>TEXT</executionType>
+    <type>ks</type>
+    <description>ks test case template</description>
+    <tag></tag>
+    <comment></comment>
+    <name>KS test case 1</name>
+</TestCaseEntity>
